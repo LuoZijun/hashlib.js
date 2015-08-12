@@ -5,24 +5,6 @@ JavaScript Hashlib
 
 .. contents::
 
-*参考代码*: 
-
-    http://www.movable-type.co.uk/scripts/sha256.html
-    http://www.movable-type.co.uk/scripts/sha1.html
-    https://github.com/chrisveness/crypto
-
-*SHA家族代码范例*:
-    
-    `NIST SHA1 <http://csrc.nist.gov/groups/ST/toolkit/documents/Examples/SHA1.pdf>`_
-
-    `NIST SHA256 <http://csrc.nist.gov/groups/ST/toolkit/documents/Examples/SHA256.pdf>`_
-
-*NIST文档*:
-    
-    `NIST FIPS-202 SHA3 Standard <http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf>`_
-
-    `NIST FIPS-180-4 <http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf>`_
-
 
 支持的摘要算法
 ------------------------
@@ -66,3 +48,29 @@ JavaScript Hashlib
     hex_code = sha256.hexdigest();   // hex code.
     // 929a7c70a035679bc39d5d0555362ab3a86dbd254db168691181fbfc971ae4b1
 
+
+
+相关资料
+----------------
+
+*参考代码*: 
+
+    `SHA256 <http://www.movable-type.co.uk/scripts/sha256.html>`_
+
+    `SHA1 <http://www.movable-type.co.uk/scripts/sha1.html>`_
+
+    `SHA1&SHA256&AES&TEA <https://github.com/chrisveness/crypto>`_
+    
+
+*SHA家族代码范例*:
+    
+    `NIST SHA1 <http://csrc.nist.gov/groups/ST/toolkit/documents/Examples/SHA1.pdf>`_
+
+    `NIST SHA256 <http://csrc.nist.gov/groups/ST/toolkit/documents/Examples/SHA256.pdf>`_
+
+
+*NIST文档*:
+
+    `NIST FIPS-202 SHA3 Standard <http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf>`_
+
+    `NIST FIPS-180-4 <http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf>`_
